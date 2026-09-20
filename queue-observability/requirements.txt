@@ -1,0 +1,6 @@
+# Python >=3.10. Direct dependency pins, not a transitive/hash lock.
+# Verified against live primary PyPI project JSON during preparation:
+# https://pypi.org/pypi/opentelemetry-api/json
+# https://pypi.org/pypi/opentelemetry-sdk/json
+opentelemetry-api==1.44.0
+opentelemetry-sdk==1.44.0
