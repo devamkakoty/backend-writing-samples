@@ -9,6 +9,32 @@ adds a verified workflow execution and inspectable node outputs.
 
 Original, self-published, AI-assisted portfolio work using synthetic inputs.
 
+## Work with me: one tested, fixed-scope milestone
+
+I build reliable backend tools and automation that can be inspected, tested
+and handed over. A useful starting point is one concrete outcome:
+
+- **Reconcile two data exports:** account for matched, missing and ambiguous
+  records, with an exception report rather than silent data loss.
+- **Make an automation safe to retry:** add validation, replay protection and
+  review steps around a defined n8n workflow.
+- **Fix a reproducible Python or TypeScript bug:** turn the failure into a
+  regression test, implement the fix and document how to verify it.
+- **Commission a technical tutorial:** get an original explanation paired
+  with runnable code, tests and clear reproduction instructions.
+
+For each milestone, I propose the deliverables, acceptance checks, fixed fee
+and timing before implementation. The handover includes the agreed source,
+tests and setup notes; integrations and deployment are scoped explicitly.
+The examples below show the kind of inspectable work I deliver.
+
+**Have a project?** Reply in our existing conversation, or
+[open a project inquiry](https://github.com/devamkakoty/backend-writing-samples/issues/new?title=Project%20inquiry).
+Describe the desired result, current obstacle and deadline in non-confidential
+terms. GitHub issues are public: do not include credentials, customer data,
+private files or payment details. We can agree a private channel for project
+details and a secure access method if the work requires credentials.
+
 ## Articles
 
 1. **[Deterministic CSV joins: account for every row before pairing
