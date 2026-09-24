@@ -1,11 +1,13 @@
-# Backend engineering: executable technical articles
+# Backend engineering: tested code, technical articles and automation
 
 **Devam Kakoty**
 
-Two original, self-published, AI-assisted technical samples. Each article is
-paired with small runnable source files and deterministic tests. All examples
-use synthetic inputs; these are not claims about client work, deployed systems,
-measured production savings, or previous editorial commissions.
+Practical engineering samples for reliable data processing, observable queues
+and review-first automation. The two technical articles pair clear explanations
+with runnable implementations and deterministic tests; the n8n demonstration
+adds a verified workflow execution and inspectable node outputs.
+
+Original, self-published, AI-assisted portfolio work using synthetic inputs.
 
 ## Articles
 
@@ -19,7 +21,26 @@ measured production savings, or previous editorial commissions.
    bounded labels; inspect actual SDK aggregation without an account or
    network exporter.
 
-## Reproduce
+## Automation demonstration
+
+**[Review-first notes workflow for n8n](https://github.com/devamkakoty/n8n-review-workflow-demo)**
+turns a synthetic note into two pending-review proposals, then demonstrates
+that replay creates no duplicates. It combines ordinary n8n HTTP Request nodes
+with a dependency-free local Node.js API.
+
+- **20 automated component tests:** replay/conflict handling, recoverable
+  failures, disabled mode, bounded inputs and real loopback HTTP.
+- **Verified execution in n8n 2.39.8:** imported workflow, all three executed
+  nodes, two initial proposals and zero additional proposals on replay.
+- **Inspectable proof:** workflow JSON, source, tests,
+  [saved node outputs](https://github.com/devamkakoty/n8n-review-workflow-demo/blob/main/docs/execution-result.json)
+  and a verification record.
+
+This demonstration uses fixture model responses and an in-memory ledger.
+It prepares proposals only; it does not send messages, change calendars or
+claim a live client deployment.
+
+## Reproduce the article examples
 
 Use Python 3.11 or later. Exact tested versions and results are recorded in
 each article after validation; a compatibility target is not a claim that
@@ -40,11 +61,7 @@ No cloud account, paid API, telemetry destination or customer data is required.
 ## Provenance and scope
 
 The code and articles were prepared with AI assistance and checked against
-the accompanying executable tests and cited primary documentation. They are
-new portfolio samples, not historical third-party publications. The tests
-support their stated local behavior, not complete correctness or production
-readiness. No client deliverables or private career/account records are included.
-
-No publisher has commissioned or accepted these articles. Later commissioned
-work, editorial requirements, compensation and publication rights would be
-agreed separately.
+the accompanying executable tests and cited primary documentation. Test and
+execution records state their exact scope. These are original portfolio
+samples, not client deliverables or commissioned third-party publications.
+No private customer, career or account records are included.
