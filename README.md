@@ -66,6 +66,18 @@ This demonstration uses fixture model responses and an in-memory ledger.
 It prepares proposals only; it does not send messages, change calendars or
 claim a live client deployment.
 
+## Free planning utility
+
+**[Newsletter Migration Readiness Audit](https://devamkakoty.github.io/newsletter-migration-readiness/)**
+is a free, local-only 14-question checklist that turns migration gaps into a
+prioritized Markdown action list. It does not upload subscriber data, require
+an account, recommend a provider or contain an affiliate link.
+
+If you are actively planning a newsletter migration, try the audit and
+[share bounded feedback](https://github.com/devamkakoty/newsletter-migration-readiness/issues/new?title=Newsletter%20migration%20audit%20feedback)
+about whether it identified a useful preparation step. Do not include
+subscriber data, questionnaire answers or other confidential information.
+
 ## Reproduce the article examples
 
 Use Python 3.11 or later. Exact tested versions and results are recorded in
